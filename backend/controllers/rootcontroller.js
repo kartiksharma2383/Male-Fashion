@@ -1,0 +1,7 @@
+const rootcontroller=(req,res)=>{
+    res.send(`
+        <h1>Hello<h1>
+        `)
+        console.log("root page")
+}
+module.exports=rootcontroller;
